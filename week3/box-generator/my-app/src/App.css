@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.addbtn {
+  position: relative;
+  left: 130px;
+  bottom: 22px;
+  background-color: blue;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+  
+}
+
+
+
