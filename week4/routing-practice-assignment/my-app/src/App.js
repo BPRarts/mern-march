@@ -4,6 +4,7 @@ import Number from './Components/Number';
 import Hello from './Components/Hello';
 import {BrowserRouter, Routes,Route} from "react-router-dom";
 
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
 
       <Route path='/home' element={<Home/>}/>
       <Route path='/number/:id' element={<Number/>}/>
-      <Route path='/hello' element={<Hello/>}/>
+      <Route path='/hello/:color' element={<Hello/>}/>
+      
 
       </Routes>
 
