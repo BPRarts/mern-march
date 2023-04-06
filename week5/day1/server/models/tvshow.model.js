@@ -19,7 +19,7 @@ const TvShow = new mongoose.Schema({
 
     genre: {
         type:String
-    },
+    }
 
 
 

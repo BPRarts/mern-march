@@ -1,5 +1,6 @@
 const TvShowController = require('../controllers/tvshow.controller');
 
-module.esports = app => {
-    app.get('/api/allShows', TvShowController,TvShowController.findAllShows);
+module.exports = app => {
+    app.get('/api/allShows', TvShowController.findAllShows);
+    app.post('/api/newShow', TvShowController.createShow);
 }
