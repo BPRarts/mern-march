@@ -5,5 +5,5 @@ module.exports = app => {
     app.post('/api/newShow', TvShowController.createShow);
     app.get('/api/oneShow/:id',TvShowController.findOneShow);
     app.put('/api/updateShow/:id',TvShowController.updateShow);
-    app.delete('/api/deleteShow/:id',TvShowController.deleteShow)
+    app.delete('/api/deleteShow/:id',TvShowController.deleteShow);
 }  
