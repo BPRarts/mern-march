@@ -4,6 +4,7 @@ import {useEffect,useState} from 'react'
 import Display from './components/Display';
 import {BrowserRouter, Routes, Route,Link} from 'react-router-dom'
 import CreateShow from './components/CreateShow';
+import OneShow from './components/OneShow';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <Routes>
         <Route path = '/'element={<Display tvShowList={tvShowList} setTvShowList ={setTvShowList}/>}/>
         <Route path = '/createShow/form' element = {<CreateShow/>}/>
+        <Route path = '/viewShow/:id' element ={<OneShow/>}/>
+
         
       </Routes>
       

@@ -15,7 +15,7 @@ module.exports.createShow = (req, res) => {
             res.json({show:newShow})
         })
         .catch((err) => {
-            res.json({ message: 'Something went wrong', error: err })
+            res.status(400).json(err)
         });
 }
 
