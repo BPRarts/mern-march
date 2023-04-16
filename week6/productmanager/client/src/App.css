@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.title{
+  color:white ;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+  background-color: rgb(92, 92, 92);
+  background-image: url("");
+ 
+}
+.form{
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  height: 40px;
+  margin: auto;
+  border-radius: 30px;
+  padding:15px;
+  background-color: black;
+  text-decoration: underline;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
+
+.submit{
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-2{
+  background-color: rgb(92, 92, 92) ;
+}
+
+.title-2{
+  color: white;
+  text-decoration: underline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+
+.btn-edit{
+  background-color: black;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-delete{
+  background-color: black;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
