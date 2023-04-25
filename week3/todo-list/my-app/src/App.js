@@ -25,6 +25,7 @@ function App() {
 
   return (
     <div class="container">
+      <h1>Todo List</h1>
       <form onSubmit={(event) => {
         handleNewTodoSubmit(event);
       }}>
